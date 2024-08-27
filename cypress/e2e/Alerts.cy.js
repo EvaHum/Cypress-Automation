@@ -1,4 +1,4 @@
-describe('Alerts', () =>{
+describe('Alerts bnh', () =>{
     // Javascript Alert : Automatically close. Confirm the text.
     it('JS Alerts', ()=> {
         cy.visit('http://the-internet.herokuapp.com/javascript_alerts')

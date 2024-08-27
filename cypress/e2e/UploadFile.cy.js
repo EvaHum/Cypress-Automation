@@ -1,0 +1,9 @@
+describe('Upload File', ()=>{
+    it('Upload File', ()=>{
+        cy.visit('https://www.lambdatest.com/selenium-playground/upload-file-demo')
+        cy.get('#file').selectFile('test.pdf')
+
+
+    })
+
+})
